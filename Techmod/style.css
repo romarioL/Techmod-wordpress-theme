@@ -1,0 +1,46 @@
+body {
+	font-family: 'Ubuntu Mono', monospace;
+}
+.main-header {
+	background-color: black;
+	height: 600px;
+}
+
+.main-screen {
+
+	height: 500px;
+	width: 580px;
+	padding: 30px;
+	border-radius: 10px;
+	margin-left: 390px;
+	color: #76ff03;
+	font-size: 56px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+    font-family: 'VT323', monospace;
+}
+
+ .main-section {
+ 	min-height: 80%;
+ 	background-color: white;
+ 	margin: 100px;
+ }
+
+ .post-section {
+ 	background-color: #e3f2fd;
+ 	padding: 15px;
+ 	margin: 20px;
+ 	text-align: justify;
+ }
+
+ .post-section h4 {
+ 	color: #42a5f5;
+ }
+
+ .widget ul li a{
+ 	color: white;
+ }
+
+
+
