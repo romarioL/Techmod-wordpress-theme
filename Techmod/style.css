@@ -4,15 +4,12 @@ body {
 .main-header {
 	background-color: black;
 	height: 600px;
+	height: 500px;
+
 }
 
-.main-screen {
-
-	height: 500px;
-	width: 580px;
+.main-screen-text {
 	padding: 30px;
-	border-radius: 10px;
-	margin-left: 390px;
 	color: #76ff03;
 	font-size: 56px;
 	display: flex;
@@ -20,6 +17,8 @@ body {
 	text-align: center;
     font-family: 'VT323', monospace;
 }
+
+
 
  .main-section {
  	min-height: 80%;
@@ -40,6 +39,17 @@ body {
 
  .widget ul li a{
  	color: white;
+ }
+
+ @media(max-width: 414px ) {
+ 	.main-screen-text{
+ 		font-size: 25px;
+ 	}
+
+ 	.post-section {
+ 		width: 96%;
+ 		margin: 10px;
+ 	}
  }
 
 

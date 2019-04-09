@@ -19,11 +19,13 @@
 
     <?php wp_head(); ?>
 
-    <div class="main-header" >
+    <div class="main-header col s12 l12">
     	<?php wp_nav_menu(array('menu' => 'Nome do Menu', 'container' => 'nav', 'container_class' => 'menu black', 'menu_class' => 'menu-links')); ?>
 
-    	<div class="main-screen" id="main-screen">
-    	</div>
+      <div class="main-screen-text" id="main-screen">
+
+      </div>
+
     </div>
 
     <body>
