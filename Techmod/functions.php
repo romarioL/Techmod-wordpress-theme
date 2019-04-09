@@ -27,4 +27,15 @@ if ( function_exists('register_sidebar') )
   )
 );
 
+add_filter('next_posts_link_attributes', 'posts_link_attributes');
+
+
+add_filter('previous_posts_link_attributes', 'posts_link_attributes');
+
+
+ function posts_link_attributes() {
+  return 'class="waves-effect waves-light btn light-green accent-3"';
+ }
+
+
  ?>

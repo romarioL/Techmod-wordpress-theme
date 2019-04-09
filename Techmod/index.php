@@ -16,6 +16,9 @@
 
 	<?php endwhile; endif; ?>
 
+	<?php next_posts_link('Anteriores'); ?><?php previous_posts_link('Próximos')?>
+
+
 </article>
 <sidebar class="post-screen col s12 l4">
 
